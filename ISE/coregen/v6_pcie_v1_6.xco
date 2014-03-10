@@ -1,7 +1,7 @@
 ##############################################################
 #
-# Xilinx Core Generator version 13.3
-# Date: Mon Mar 26 13:49:22 2012
+# Xilinx Core Generator version 14.7
+# Date: Mon Mar 10 15:53:06 2014
 #
 ##############################################################
 #
@@ -201,5 +201,8 @@ CSET vendor_id=10EE
 CSET vsec_enabled=false
 CSET xlnx_ref_board=ML_605
 # END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-10-13T18:46:09Z
+# END Extra information
 GENERATE
-# CRC: ae6b923a
+# CRC: 2cefada1
