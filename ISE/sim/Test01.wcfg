@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Temp/Xilinx PCI Express/pcie_sg_dma 12.3/ise/tf64_pcie_trn_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="abb64package" />
+            <top_module name="glbl" />
+            <top_module name="iputils_conv" />
+            <top_module name="iputils_misc" />
+            <top_module name="iputils_std_logic_arith" />
+            <top_module name="iputils_std_logic_unsigned" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="tf64_pcie_trn" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="117" />
+   <wave_markers>
+      <marker time="702000000" label="" />
+      <marker time="804000000" label="" />
+      <marker time="908000000" label="" />
+      <marker time="1312000000" label="" />
+      <marker time="2425785000" label="" />
+      <marker time="3698049000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tf64_pcie_trn/trn_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_clk</obj_property>
+      <obj_property name="ObjectShortName">trn_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rdst_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rdst_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rdst_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rnp_ok_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rnp_ok_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rnp_ok_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tsof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_teof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_teof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_teof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_td" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_td[63:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_td[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_trem_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_trem_n[7:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_trem_n[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tsrc_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsrc_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsrc_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_terrfwd_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_terrfwd_n</obj_property>
+      <obj_property name="ObjectShortName">trn_terrfwd_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tsrc_dsc_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsrc_dsc_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsrc_dsc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_v</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_sof" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DDR_wr_sof</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_sof</obj_property>
+      <obj_property name="label">DDR_wr_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_eof</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_Shift" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_Shift</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_Shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_Mask" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_Mask[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_Mask[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_wr_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_wr_full</obj_property>
+      <obj_property name="ObjectShortName">DDR_wr_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_v</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_sof</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_eof</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_Shift" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_Shift</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_Shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_full</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_FIFO_RdEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_FIFO_RdEn</obj_property>
+      <obj_property name="ObjectShortName">DDR_FIFO_RdEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_FIFO_Empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_FIFO_Empty</obj_property>
+      <obj_property name="ObjectShortName">DDR_FIFO_Empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_FIFO_RdQout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_FIFO_RdQout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_FIFO_RdQout[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_Ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_Ready</obj_property>
+      <obj_property name="ObjectShortName">DDR_Ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_Blinker" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_Blinker</obj_property>
+      <obj_property name="ObjectShortName">trn_Blinker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/ddr_wr_fa" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ddr_wr_fa</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_fa</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_rdc_FA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_rdc_FA</obj_property>
+      <obj_property name="ObjectShortName">DDR_rdc_FA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_we</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_re" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_re</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_qout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_qout[71:0]</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_qout[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_Status" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_Status[63:0]</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_Status[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_Rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_Rst</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_Rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_pfull" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_pfull</obj_property>
+      <obj_property name="ObjectShortName">eb_pfull</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_full</obj_property>
+      <obj_property name="ObjectShortName">eb_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_pempty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_pempty</obj_property>
+      <obj_property name="ObjectShortName">eb_pempty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_empty</obj_property>
+      <obj_property name="ObjectShortName">eb_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/eb_FIFO_Data_Count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eb_FIFO_Data_Count[26:0]</obj_property>
+      <obj_property name="ObjectShortName">eb_FIFO_Data_Count[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DBG_dma_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DBG_dma_start</obj_property>
+      <obj_property name="ObjectShortName">DBG_dma_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DDR_blinker" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DDR_blinker</obj_property>
+      <obj_property name="ObjectShortName">DDR_blinker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Sim_Zeichen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sim_Zeichen</obj_property>
+      <obj_property name="ObjectShortName">Sim_Zeichen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_reset_n</obj_property>
+      <obj_property name="ObjectShortName">trn_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_lnk_up_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_lnk_up_n</obj_property>
+      <obj_property name="ObjectShortName">trn_lnk_up_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rsof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rsof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rsof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_reof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_reof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_reof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_rd[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rrem_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rrem_n[7:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_rrem_n[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rsrc_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rsrc_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rsrc_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rbar_hit_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rbar_hit_n[6:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_rbar_hit_n[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rerrfwd_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rerrfwd_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rerrfwd_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rsrc_dsc_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rsrc_dsc_n</obj_property>
+      <obj_property name="ObjectShortName">trn_rsrc_dsc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tdst_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tdst_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tdst_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tdst_dsc_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tdst_dsc_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tdst_dsc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_tbuf_av" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tbuf_av[3:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_tbuf_av[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/pcie_link_width" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcie_link_width[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_link_width[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/cfg_dcommand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_dcommand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_dcommand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/localID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">localID[15:0]</obj_property>
+      <obj_property name="ObjectShortName">localID[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/mbuf_UserFull" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mbuf_UserFull</obj_property>
+      <obj_property name="ObjectShortName">mbuf_UserFull</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/mem_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_clk</obj_property>
+      <obj_property name="ObjectShortName">mem_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Rx_No_Flow_Control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Rx_No_Flow_Control</obj_property>
+      <obj_property name="ObjectShortName">Rx_No_Flow_Control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Tx_No_Flow_Control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Tx_No_Flow_Control</obj_property>
+      <obj_property name="ObjectShortName">Tx_No_Flow_Control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Accum_Msg_INTA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Accum_Msg_INTA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accum_Msg_INTA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Accum_Msg_INTA_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Accum_Msg_INTA_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accum_Msg_INTA_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Op_Random" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Op_Random[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Random[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/ii" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ii[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ii[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/FSM_Trn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FSM_Trn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_Trn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Hdr_Array" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Hdr_Array[3:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">Hdr_Array[3:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Private_Array" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Private_Array[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">Private_Array[15:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Rx_TLP_Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rx_TLP_Length[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx_TLP_Length[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Rx_MWr_Tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rx_MWr_Tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx_MWr_Tag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Rx_MRd_Tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rx_MRd_Tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx_MRd_Tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Tx_MRd_Addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tx_MRd_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_MRd_Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Tx_MRd_Leng" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tx_MRd_Leng[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_MRd_Leng[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_MRd_Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_MRd_Length[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_MRd_Length[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_MRd_Tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_MRd_Tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_MRd_Tag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_MRd_Tag_k" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_MRd_Tag_k[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_MRd_Tag_k[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_PA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_PA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_PA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_HA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_HA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_HA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_BDA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_BDA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_BDA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_Leng" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_Leng[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_Leng[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_L1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_L1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_L1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_L2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_L2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_L2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_bar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_bar[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_bar[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_ds_is_Last" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_ds_is_Last</obj_property>
+      <obj_property name="ObjectShortName">DMA_ds_is_Last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/DMA_us_is_Last" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DMA_us_is_Last</obj_property>
+      <obj_property name="ObjectShortName">DMA_us_is_Last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/CplD_Index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CplD_Index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CplD_Index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Desc_tx_MRd_Valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Desc_tx_MRd_Valid</obj_property>
+      <obj_property name="ObjectShortName">Desc_tx_MRd_Valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Desc_tx_MRd_Leng" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Desc_tx_MRd_Leng[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Desc_tx_MRd_Leng[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Desc_tx_MRd_Addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Desc_tx_MRd_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Desc_tx_MRd_Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Desc_tx_MRd_TAG" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Desc_tx_MRd_TAG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Desc_tx_MRd_TAG[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_MRd_come" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_MRd_come</obj_property>
+      <obj_property name="ObjectShortName">tx_MRd_come</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/PIO_Addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PIO_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PIO_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/PIO_Leng" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PIO_Leng[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIO_Leng[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/PIO_1st_BE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PIO_1st_BE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PIO_1st_BE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/PIO_bar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PIO_bar[6:0]</obj_property>
+      <obj_property name="ObjectShortName">PIO_bar[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/trn_rsrc_rdy_n_seed" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_rsrc_rdy_n_seed</obj_property>
+      <obj_property name="ObjectShortName">trn_rsrc_rdy_n_seed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/Err_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Err_signal</obj_property>
+      <obj_property name="ObjectShortName">Err_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/FSM_Rx_Fmt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FSM_Rx_Fmt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_Rx_Fmt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/rxchk_TLP_Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rxchk_TLP_Length[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rxchk_TLP_Length[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/rxchk_TLP_Has_Data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxchk_TLP_Has_Data</obj_property>
+      <obj_property name="ObjectShortName">rxchk_TLP_Has_Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/rxchk_TLP_4DW_Hdr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxchk_TLP_4DW_Hdr</obj_property>
+      <obj_property name="ObjectShortName">rxchk_TLP_4DW_Hdr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/rxchk_Mem_TLP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxchk_Mem_TLP</obj_property>
+      <obj_property name="ObjectShortName">rxchk_Mem_TLP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/FSM_TLP_Fmt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FSM_TLP_Fmt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_TLP_Fmt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_TLP_Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_TLP_Length[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_TLP_Length[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_TLP_Address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_TLP_Address[12:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_TLP_Address[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_TLP_Has_Data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_TLP_Has_Data</obj_property>
+      <obj_property name="ObjectShortName">tx_TLP_Has_Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_TLP_is_CplD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_TLP_is_CplD</obj_property>
+      <obj_property name="ObjectShortName">tx_TLP_is_CplD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_TLP_4DW_Hdr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_TLP_4DW_Hdr</obj_property>
+      <obj_property name="ObjectShortName">tx_TLP_4DW_Hdr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_Mem_TLP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_Mem_TLP</obj_property>
+      <obj_property name="ObjectShortName">tx_Mem_TLP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/FSM_Tx_Desc_MRd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FSM_Tx_Desc_MRd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_Tx_Desc_MRd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/FSM_Tx_MRd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FSM_Tx_MRd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_Tx_MRd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_DMA_MRd_A64b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_DMA_MRd_A64b</obj_property>
+      <obj_property name="ObjectShortName">tx_DMA_MRd_A64b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/fsm_Tx_Msg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fsm_Tx_Msg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_Tx_Msg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tf64_pcie_trn/tx_Msg_Tag_Lo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_Msg_Tag_Lo[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_Msg_Tag_Lo[3:0]</obj_property>
+   </wvobject>
+</wave_config>
